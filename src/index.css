@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+:root {
+  --background: #111;
+    --bg-opaque: hsla(0,0%,7%,.25);
+    --bg-light: #232323;
+    --bg-dark: #080808;
+    --text: #ebecf3;
+    --clr: #0aff9d;
+    --font-xs: 1.6rem;
+    --font-sm: 1.8rem;
+    --font-md: 2.2rem;
+    --font-lg: 3.6rem;
+    --font-xl: 5.6rem;
+    --font-2xl: 9.6rem;
+}
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color:var(--background);
+}

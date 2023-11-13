@@ -1,0 +1,121 @@
+
+
+.container .card {
+    position: relative;
+    border-radius: 10px;
+}
+
+.container .card .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: 0.7s;
+    z-index: 1;
+}
+
+
+
+/* .container .card:nth-child(2) .icon {
+    background: #6eadd4;
+}
+
+.container .card:nth-child(3) .icon {
+    background: #4aada9;
+} */
+
+
+.container .card .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.7s;
+    color:var(--text);
+    
+}
+
+/* i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -20%);
+    font-size: 80px;
+    transition: 0.7s;
+    color: #fff;
+} */
+
+.container .card .face {
+    width: 300px;
+    height: 200px;
+   
+    transition: 0.5s;
+}
+
+.container .card .face.face1 {
+    position: relative;
+    background:var(--bg-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    border: 0.1px solid var(--clr);
+    transform: translateY(100px);
+   
+}
+
+.container .card:hover .face.face1{
+    /* background: #ff0057; */
+    transform: translateY(0px);
+}
+
+.container .card .face.face1 .content {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/* .container .card:hover .face.face1 .content {
+    opacity: 1;
+} */
+
+/* .container .card .face.face1 .content i{
+    max-width: 100px;
+} */
+
+.container .card .face.face2 {
+    position: relative;
+    background:var(--text);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    /* border: 1px solid var(--text); */
+    box-shadow: 0px 0px 50px 4px rgba(42, 61, 39, 0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+/* .container .card .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #414141;
+} */
+
+/* .container .card .face.face2 .content h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    color: #414141; */
+/* }  */
+
+/* .container a {
+    text-decoration: none;
+    color: #414141;
+} */

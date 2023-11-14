@@ -16,7 +16,9 @@ const Skills = () => {
                <h1 className="text-[--clr] text-6xl font-extrabold uppercase text-center mt-8"> ski<span className="text-[--text]">lls</span></h1>
              
             <div className="container ps-20 grid md:grid-cols-3">
-        <div className="card">
+        <div className="card"  data-aos="fade-down-right"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="face face1 w-60 h-40">
                 <div className="content">
                     <div className="icon flex justify-center items-center">
@@ -35,7 +37,9 @@ const Skills = () => {
             </div>
         </div>
         {/* item 2 */}
-        <div className="card">
+        <div className="card" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="face face1 w-60 h-40">
                 <div className="content">
                     <div className="icon flex justify-center items-center">
@@ -55,7 +59,9 @@ const Skills = () => {
         </div>
         {/* item 2 */}
         
-        <div className="card">
+        <div className="card"  data-aos="fade-down-left"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="face face1 w-60 h-40">
                 <div className="content">
                     <div className="icon flex justify-center items-center">
@@ -76,7 +82,9 @@ const Skills = () => {
         {/* item 2 */}
         
 
-        <div className="card">
+        <div className="card" data-aos="fade-down-right"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="face face1 w-60 h-40">
                 <div className="content">
                     <div className="icon flex justify-center items-center">
@@ -96,7 +104,9 @@ const Skills = () => {
         </div>
         {/* item 2 */}
         
-        <div className="card">
+        <div className="card"  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="face face1 w-60 h-40">
                 <div className="content">
                     <div className="icon flex justify-center items-center">
@@ -115,7 +125,9 @@ const Skills = () => {
             </div>
         </div>
         {/* item 2 */}
-        <div className="card">
+        <div className="card"  data-aos="fade-down-left"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="face face1 w-60 h-40">
                 <div className="content">
                     <div className="icon flex justify-center items-center">
@@ -133,7 +145,9 @@ const Skills = () => {
                 </div>
             </div>
         </div>
-        <div className="card">
+        <div className="card" data-aos="fade-down-right"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="face face1 w-60 h-40">
                 <div className="content">
                     <div className="icon flex justify-center items-center">
@@ -152,7 +166,9 @@ const Skills = () => {
             </div>
         </div>
         {/* item 2 */}
-        <div className="card">
+        <div className="card" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="face face1 w-60 h-40">
                 <div className="content">
                     <div className="icon flex justify-center items-center">
@@ -172,7 +188,9 @@ const Skills = () => {
         </div>
         {/* item 2 */}
         {/* item 2 */}
-        <div className="card">
+        <div className="card"  data-aos="fade-down-left"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="face face1 w-60 h-40">
                 <div className="content">
                     <div className="icon flex justify-center items-center">
@@ -191,7 +209,9 @@ const Skills = () => {
             </div>
         </div>
         {/* item 2 */}
-        <div className="card">
+        <div className="card" data-aos="fade-down-right"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="face face1 w-60 h-40">
                 <div className="content">
                     <div className="icon flex justify-center items-center">
@@ -210,7 +230,9 @@ const Skills = () => {
             </div>
         </div>
         {/* item 2 */}
-        <div className="card">
+        <div className="card" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="face face1 w-60 h-40">
                 <div className="content">
                     <div className="icon flex justify-center items-center">
@@ -229,7 +251,9 @@ const Skills = () => {
             </div>
         </div>
         {/* =========== */}
-        <div className="card">
+        <div className="card" data-aos="fade-down-left"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="face face1 w-60 h-40">
                 <div className="content">
                     <div className="icon flex justify-center items-center">

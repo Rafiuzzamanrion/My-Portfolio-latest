@@ -6,10 +6,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const NavBar = () => {
   return (
     <div>
-    
       <div className="flex flex-row justify-between ms-2 mr-2 bg-[--bg-dark] shadow p-3 uppercase">
-      
-      <nav className="dropdown">
+        <nav className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden text-[--text]">
             <GiHamburgerMenu size={35} />
           </label>
@@ -48,14 +46,13 @@ const NavBar = () => {
             >
               Contact
             </Link>
-           
           </ul>
         </nav>
         {/* ================= */}
         <div className="lg:hidden">
-        <button className="btn bg-transparent text-base-100 border-[--clr] hover:bg-[--clr] hover:border-[--clr] hover:text-black">
-              Resume
-            </button>
+          <button className="btn bg-transparent text-base-100 border-[--clr] hover:bg-[--clr] hover:border-[--clr] hover:text-black">
+            Resume
+          </button>
         </div>
         <nav className="hidden lg:flex justify-center items-center">
           <Link
@@ -89,9 +86,9 @@ const NavBar = () => {
             Contact
           </Link>
           <div className="flex justify-center items-center">
-          <button className="btn bg-transparent text-base-100 border-[--clr] hover:bg-[--clr] hover:border-[--clr] hover:text-black">
-            Resume
-          </button>
+            <button className="btn bg-transparent text-base-100 border-[--clr] hover:bg-[--clr] hover:border-[--clr] hover:text-black">
+              Resume
+            </button>
           </div>
         </nav>
       </div>

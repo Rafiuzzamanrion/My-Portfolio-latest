@@ -17,10 +17,20 @@ const Hero = () => {
         <title>Home</title>
       </Helmet>
       <div className="lg:w-2/3 mt-28  ps-5 pr-5 lg:ps-28 text-justify">
-        <h1 className="text-[--text] text-8xl font-extrabold">
+        <h1
+          className="text-[--text] text-8xl font-extrabold"
+          data-aos="fade-down-right"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           Hey,I&apos;m Rion<span className="text-[--clr]">.</span>{" "}
         </h1>
-        <h2 className="text-2xl my-12 font-semibold text-[--text]">
+        <h2
+          className="text-2xl my-12 font-semibold text-[--text]"
+          data-aos="fade-down-left"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           Crafting Digital Magic |
           <span className="font-bold text-[--clr]">
             {" "}
@@ -29,7 +39,12 @@ const Hero = () => {
           </span>
         </h2>
 
-        <p className="text-slate-400">
+        <p
+          className="text-slate-400"
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           Welcome to my digital playground, where lines of code transform into
           immersive web experiences. I&apos;m a{" "}
           <span className="font-semibold text-slate-200">

@@ -13,7 +13,7 @@ const Skills = () => {
             </Helmet>
             <div>
            
-               <h1 className="text-[--clr] text-6xl font-extrabold uppercase text-center mt-8">Skills</h1>
+               <h1 className="text-[--clr] text-6xl font-extrabold uppercase text-center mt-8"> ski<span className="text-[--text]">lls</span></h1>
              
             <div className="container ps-20 grid md:grid-cols-3">
         <div className="card">

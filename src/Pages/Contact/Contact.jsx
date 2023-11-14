@@ -30,13 +30,13 @@ const Contact = () => {
         <div>
           {" "}
           <div
-            className=" mx-auto text-center mt-10 p-4 mb-16 rounded-xl"
+            className=" mx-auto text-center mt-10 p-4 mb-16 rounded-md"
             data-aos="fade-right"
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
-            <div className="text-3xl font-bold text-[--clr] uppercase mb-5">
-              Contact me
+            <div className="text-3xl font-bold text-[--clr] uppercase mb-5">contact
+             <span className="text-[--text]"> me</span>
             </div>
             <div className=" text-[--text]">
               Let&apos;s connect and make magic happen! Whether you have a
@@ -47,18 +47,18 @@ const Contact = () => {
             </div>
           </div>
           {/* Cards */}
-          <div className="grid lg:grid-cols-3 gap-5">
+          <div className="grid lg:grid-cols-3 gap-5 mx-4">
             {contactTab.map((x, index) => {
               return (
                 <div
                   key={index}
-                  className="card shadow-xl bg-[--bg-light] border border-[--clr]"
+                  className="shadow-xl bg-[--bg-light] border border-[--clr] p-4 rounded-md"
                 >
                   <div
-                    className="card-body items-center text-center"
+                    className="flex flex-col items-center"
                     data-aos="fade-down"
                     data-aos-easing="linear"
-                    data-aos-duration="800"
+                    data-aos-duration="1000"
                   >
                     <h2 className="card-title text-[--text]">{x.icon}</h2>
                     <p className="text-lg font-bold my-3 text-[--clr]">
@@ -77,8 +77,11 @@ const Contact = () => {
         </div>
       </>
 
-      <div className="p-10 mt-8 flex justify-center items-center">
-        <form className=" bg-[--bg-light] p-4 rounded-xl shadow-xl border border-[--clr]">
+      <div className="p-10 mt-8 flex justify-center items-center"
+      data-aos="flip-right"
+      data-aos-easing="linear"
+      data-aos-duration="1000">
+        <form className=" bg-[--bg-light] p-4 rounded-md shadow-xl border border-[--clr]">
           <div className="grid md:grid-cols-2 gap-4">
             <div className="form-control w-full max-w-xs">
               <label className="label">

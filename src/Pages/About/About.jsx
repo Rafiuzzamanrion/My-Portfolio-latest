@@ -3,6 +3,7 @@ import { FaInstagram, FaSquareFacebook, FaSquareGithub } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import image from '../../assets/profile (2).jpg'
+import './About.css'
 
 const About = () => {
   const [text] = useTypewriter({
@@ -17,8 +18,10 @@ const About = () => {
       <Helmet>
         <title>About</title>
       </Helmet>
-
-      <div className="grid lg:grid-cols-2 gap-5 mt-16">
+        <div>
+          <h1 className="text-4xl font-bold text-center text-[--clr] uppercase">about <span className="text-[--text]">me</span></h1>
+        </div>
+      <div className="grid lg:grid-cols-2 gap-5 mt-12">
         <div className="ps-8 pr-8 lg:ps-16">
           <p className="text-slate-400 text-justify">
             <h2 className="text-xl font-semibold text-[--text]">
@@ -53,30 +56,30 @@ const About = () => {
         </div>
         <div className="flex justify-center items-center">
           <div className="avatar">
-            <div className="w-96 mask mask-hexagon">
+            <div className="w-96 mask mask-hexagon effect">
               <img src = {image} />
             </div>
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center mt-8">
+      <div className="flex justify-center items-center mt-6">
         <h1>
           <Link to={"https://www.facebook.com/rafiuzzaman5683/"}>
             <FaSquareFacebook
-              className="mr-5 text-green-400  mb-5"
+              className="mr-5 text-green-400  mb-2 icon"
               size={50}
             />
           </Link>
         </h1>
         <h1>
           <Link to={"https://www.instagram.com/rafiuzzaman_rion/"}>
-            <FaInstagram className="mr-5  text-green-400  mb-5" size={50} />
+            <FaInstagram className="mr-2  text-green-400  mb-2 icon" size={50} />
           </Link>
         </h1>
         <h1>
           <Link to={"https://github.com/Rafiuzzamanrion"}>
             {" "}
-            <FaSquareGithub className="mr-5  text-green-400 mb-5" size={50} />
+            <FaSquareGithub className="mr-2  text-green-400 mb-2 icon" size={50} />
           </Link>
         </h1>
       </div>

@@ -1,14 +1,12 @@
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import { Helmet } from "react-helmet";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const NavBar = () => {
   return (
     <div>
-      <Helmet>
-        <title>Home</title>
-      </Helmet>
+    
       <div className="flex flex-row justify-between ms-2 mr-2 bg-[--bg-dark] shadow p-3 uppercase">
       
       <nav className="dropdown">

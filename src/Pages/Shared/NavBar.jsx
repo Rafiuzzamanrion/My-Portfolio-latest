@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 
+
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const NavBar = () => {
   return (
     <div>
+     
       <div className="flex flex-row justify-between ms-2 mr-2 bg-[--bg-dark] shadow p-3 uppercase">
+    
         <nav className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden text-[--text]">
             <GiHamburgerMenu size={35} />
@@ -47,7 +50,9 @@ const NavBar = () => {
               Contact
             </Link>
           </ul>
+          
         </nav>
+        
         {/* ================= */}
         <div className="lg:hidden">
           <button className="btn bg-transparent text-base-100 border-[--clr] hover:bg-[--clr] hover:border-[--clr] hover:text-black">

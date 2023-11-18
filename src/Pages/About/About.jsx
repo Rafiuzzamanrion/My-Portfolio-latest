@@ -20,7 +20,7 @@ const About = () => {
       </Helmet>
       <div>
         <h1
-          className="text-4xl font-bold text-center text-[--clr] uppercase"
+          className="text-4xl font-bold text-center text-[--clr] uppercase mt-2"
           data-aos="fade-down-right"
           data-aos-easing="linear"
           data-aos-duration="1000"
@@ -28,7 +28,7 @@ const About = () => {
           about <span className="text-[--text]">me</span>
         </h1>
       </div>
-      <div className="grid lg:grid-cols-2 gap-5 mt-12">
+      <div className="grid lg:grid-cols-2 gap-5 mt-10">
         <div className="ps-8 pr-8 lg:ps-16">
           <div
             className="text-slate-400 text-justify"

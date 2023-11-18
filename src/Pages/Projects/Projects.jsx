@@ -22,7 +22,7 @@ const Projects = () => {
         <div className="portfolio-container grid lg:grid-cols-2 gap-4">
           <div
             className="portfolio-box"
-            data-aos="flip-left"
+            data-aos="zoom-in"
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
@@ -49,7 +49,7 @@ const Projects = () => {
           {/* ========== project =========== */}
           <div
             className="portfolio-box"
-            data-aos="flip-left"
+            data-aos="zoom-in"
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
@@ -76,7 +76,7 @@ const Projects = () => {
           {/* ========== project =========== */}
           <div
             className="portfolio-box"
-            data-aos="flip-left"
+            data-aos="zoom-in"
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
@@ -103,7 +103,7 @@ const Projects = () => {
           {/* ========== project =========== */}
           <div
             className="portfolio-box"
-            data-aos="flip-left"
+            data-aos="zoom-in"
             data-aos-easing="linear"
             data-aos-duration="1000"
           >

@@ -37,7 +37,7 @@ const Projects = () => {
                 and responsive design that power this flavorful culinary web
                 experience.
               </p>
-              <Link className="inline-flex justify-center items-center mb-3 mt-5">
+              <Link to={'https://meal-cage-client.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
                 <button className="btn bg-white border-[--clr] hover:bg-[--bg-light] border-2 hover:border-[--clr]  hover:text-white">
                   <FaExternalLinkAlt size={20} />
                   View project
@@ -56,7 +56,7 @@ const Projects = () => {
             <img src={imgCar} alt="" />
             <div className="portfolio-layer">
               <h4 className="text-[--text] font-bold uppercase my-auto">
-                Car <span className="text-[--clr]">Repair</span>
+                Car <span className="text-[--clr]">Doctor</span>
               </h4>
               <p className="text-[--text] text-justify">
                 As the architect behind Car Repair, I&apos;ve meticulously
@@ -65,7 +65,7 @@ const Projects = () => {
                 I&apos;ve engineered to redefine the way you connect with car
                 servicing.
               </p>
-              <Link className="inline-flex justify-center items-center mb-3 mt-5">
+              <Link to={'https://car-doctor-client-amber.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
                 <button className="btn bg-white border-[--clr] hover:bg-[--bg-light] border-2 hover:border-[--clr]  hover:text-white">
                   <FaExternalLinkAlt size={20} />
                   View project
@@ -119,7 +119,7 @@ const Projects = () => {
                 elegance, I empower readers with a platform that marries
                 cutting-edge technology and journalistic excellence.
               </p>
-              <Link className="inline-flex justify-center items-center mb-3 mt-5">
+              <Link to={'https://the-news-dragon-client-topaz.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
                 <button className="btn bg-white border-[--clr] hover:bg-[--bg-light] border-2 hover:border-[--clr]  hover:text-white">
                   <FaExternalLinkAlt size={20} />
                   View project

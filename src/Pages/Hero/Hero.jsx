@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./Hero.css";
+import LottieAnimation from "./LottieAnimation";
 
 const Hero = () => {
   const [text] = useTypewriter({
@@ -16,7 +17,8 @@ const Hero = () => {
       <Helmet>
         <title>Home</title>
       </Helmet>
-      <div className="lg:w-2/3 mt-28  ps-5 pr-5 lg:ps-28 text-justify">
+     <div className="flex flex-col lg:flex-row gap-4">
+     <div className="lg:w-2/3 mt-20 mb-1  ps-5 pr-5 lg:ps-24 text-justify">
         <h1
           className="text-[--text] text-8xl font-extrabold"
           data-aos="fade-down-right"
@@ -55,7 +57,7 @@ const Hero = () => {
           Let &apos;s code the future together !!
         </p>
         <Link to={"/contact"}>
-          <button className="btn my-10 bg-[--clr] border-[--clr] hover:bg-transparent hover:border-b-4 hover:border-[--clr]  hover:text-base-200 style">
+          <button className="btn my-12 bg-[--clr] border-[--clr] hover:bg-transparent hover:border-b-4 hover:border-[--clr]  hover:text-base-200 style">
             Contact Me
           </button>
         </Link>
@@ -63,7 +65,13 @@ const Hero = () => {
 
       {/* ======================================= */}
 
-      <div></div>
+      <div className="flex justify-center items-center w-[350px] mx-auto"
+       data-aos="zoom-in"
+       data-aos-easing="linear"
+       data-aos-duration="1000">
+        <LottieAnimation></LottieAnimation>
+      </div>
+     </div>
     </div>
   );
 };

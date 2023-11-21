@@ -18,7 +18,7 @@ const Hero = () => {
         <title>Home</title>
       </Helmet>
      <div className="flex flex-col lg:flex-row gap-4">
-     <div className="lg:w-2/3 mt-20 mb-1  ps-5 pr-5 lg:ps-24 text-justify">
+     <div className="lg:w-2/3 mt-24 ps-5 pr-5 lg:ps-24 text-justify">
         <h1
           className="text-[--text] text-8xl font-extrabold"
           data-aos="fade-down-right"

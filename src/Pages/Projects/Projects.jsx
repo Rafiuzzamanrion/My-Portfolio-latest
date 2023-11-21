@@ -8,7 +8,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="mx-2">
       <Helmet>
         <title>Projects</title>
       </Helmet>
@@ -26,7 +26,7 @@ const Projects = () => {
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
-            <img src={imgMeal} alt="" />
+            <img className="object-cover" src={imgMeal} alt="" />
             <div className="portfolio-layer">
               <h4 className="text-[--text] font-bold uppercase my-auto">
                 Meal <span className="text-[--clr]">Cage</span>
@@ -53,7 +53,7 @@ const Projects = () => {
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
-            <img src={imgCar} alt="" />
+            <img className="object-cover" src={imgCar} alt="" />
             <div className="portfolio-layer">
               <h4 className="text-[--text] font-bold uppercase my-auto">
                 Car <span className="text-[--clr]">Doctor</span>
@@ -61,7 +61,7 @@ const Projects = () => {
               <p className="text-[--text] text-justify">
                 As the architect behind Car Repair, I&apos;ve meticulously
                 crafted a digital pit stop where cutting-edge technology meets
-                automotive expertise. Navigate through seamless user experiences
+                automotive expertise.
                 I&apos;ve engineered to redefine the way you connect with car
                 servicing.
               </p>
@@ -80,7 +80,7 @@ const Projects = () => {
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
-            <img src={imgMeal} alt="" />
+            <img className="object-cover" src={imgMeal} alt="" />
             <div className="portfolio-layer">
               <h4 className="text-[--text] font-bold uppercase my-auto">
                 Meal <span className="text-[--clr]">Cage</span>
@@ -107,7 +107,7 @@ const Projects = () => {
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
-            <img src={imgNews} alt="" />
+            <img className="object-cover" src={imgNews} alt="" />
             <div className="portfolio-layer">
               <h4 className="text-[--text] font-bold uppercase my-auto">
                 the <span className="text-[--clr]">dragon news</span>
@@ -115,9 +115,7 @@ const Projects = () => {
               <p className="text-[--text] text-justify">
                 As the developer behind Dragon News, I blend innovation with
                 functionality to bring you a seamless and engaging news-reading
-                experience. Crafting the digital realm where information meets
-                elegance, I empower readers with a platform that marries
-                cutting-edge technology and journalistic excellence.
+                experience.
               </p>
               <Link to={'https://the-news-dragon-client-topaz.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
                 <button className="btn bg-white border-[--clr] hover:bg-[--bg-light] border-2 hover:border-[--clr]  hover:text-white">

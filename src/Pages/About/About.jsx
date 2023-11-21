@@ -47,7 +47,7 @@ const About = () => {
               <span className=" text-[--clr]">!!</span>{" "}
             </h2>{" "}
             <h1
-              className="text-3xl font-extrabold mt-2 mb-1 "
+              className="text-3xl font-extrabold mt-3 mb-1 "
               data-aos="fade-down-left"
               data-aos-easing="linear"
               data-aos-duration="1000"
@@ -86,7 +86,7 @@ const About = () => {
         >
           <div className="avatar">
             <div className="w-96 mask mask-hexagon effect">
-              <img src={image} />
+              <img className="object-cover" src={image} />
             </div>
           </div>
         </div>

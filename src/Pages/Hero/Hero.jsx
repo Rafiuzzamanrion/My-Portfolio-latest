@@ -13,7 +13,7 @@ const Hero = () => {
   });
 
   return (
-    <div>
+    <div className="h-full">
       <Helmet>
         <title>Home</title>
       </Helmet>

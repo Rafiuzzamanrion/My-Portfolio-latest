@@ -4,6 +4,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./Hero.css";
 import LottieAnimation from "./LottieAnimation";
 
+
 const Hero = () => {
   const [text] = useTypewriter({
     words: ["Full Stack Web Developer"],
@@ -13,7 +14,7 @@ const Hero = () => {
   });
 
   return (
-    <div className="h-full">
+    <div className="min-h-screen">
       <Helmet>
         <title>Home</title>
       </Helmet>
@@ -72,6 +73,7 @@ const Hero = () => {
         <LottieAnimation></LottieAnimation>
       </div>
      </div>
+    
     </div>
   );
 };

@@ -14,7 +14,7 @@ const About = () => {
   });
 
   return (
-    <div>
+    <div className="min-h-screen">
       <Helmet>
         <title>About</title>
       </Helmet>
@@ -29,7 +29,7 @@ const About = () => {
         </h1>
       </div>
       <div className="grid lg:grid-cols-2 gap-5 mt-10">
-        <div className="ps-8 pr-8 lg:ps-16">
+        <div className="ps-4 pr-4 lg:ps-16">
           <div
             className="text-slate-400 text-justify"
             data-aos="fade-right"

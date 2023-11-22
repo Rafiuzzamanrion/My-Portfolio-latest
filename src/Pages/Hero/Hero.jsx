@@ -14,7 +14,7 @@ const Hero = () => {
   });
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen min-w-fit">
       <Helmet>
         <title>Home</title>
       </Helmet>

@@ -20,31 +20,31 @@ const NavBar = () => {
           >
             {/*========= nav here=========  */}
             <Link
-              className="mt-1  text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr]"
+              className="mt-1 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr] text-sm font-semibold"
               to={"/"}
             >
               Home
             </Link>
             <Link
-              className="mt-1  text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr]"
+              className="mt-1 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr] text-sm font-semibold"
               to={"/about"}
             >
               About
             </Link>
             <Link
-              className="mt-1 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr]"
+              className="mt-1 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr] text-sm font-semibold"
               to={"/skills"}
             >
               Skill
             </Link>
             <Link
-              className="mt-1 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr]"
+              className="mt-1 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr] text-sm font-semibold"
               to={"/projects"}
             >
               Project
             </Link>
             <Link
-              className="mt-1 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr]"
+              className="mt-1 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr] text-sm font-semibold"
               to={"/contact"}
             >
               Contact
@@ -61,31 +61,31 @@ const NavBar = () => {
         </div>
         <nav className="hidden lg:flex justify-center items-center">
           <Link
-            className="mr-8 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr]"
+            className="mr-8 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr] text-sm font-semibold"
             to={"/"}
           >
             Home
           </Link>
           <Link
-            className="mr-8 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr]"
+            className="mr-8 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr] text-sm font-semibold"
             to={"/about"}
           >
             About
           </Link>
           <Link
-            className="mr-8 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr]"
+            className="mr-8 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr] text-sm font-semibold"
             to={"/skills"}
           >
             Skill
           </Link>
           <Link
-            className="mr-8 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr]"
+            className="mr-8 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr] text-sm font-semibold"
             to={"/projects"}
           >
             Project
           </Link>
           <Link
-            className="mr-8 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr]"
+            className="mr-8 text-[--text] hover:border-b-4 border-[--clr] hover:text-[--clr] text-sm font-semibold"
             to={"/contact"}
           >
             Contact

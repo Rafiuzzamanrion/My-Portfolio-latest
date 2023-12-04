@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 import { FaInstagram, FaSquareFacebook, FaSquareGithub } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import image from "../../assets/profile (2).jpg";
+import image from "../../assets/profile.jpg";
 import "./About.css";
 
 const About = () => {

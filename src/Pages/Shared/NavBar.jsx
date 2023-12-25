@@ -91,9 +91,11 @@ const NavBar = () => {
             Contact
           </Link>
           <div className="flex justify-center items-center">
-            <button className="btn bg-transparent text-base-100 border-[--clr] hover:bg-[--clr] hover:border-[--clr] hover:text-black">
+           <Link to={'https://drive.google.com/drive/u/0/folders/1BfKfChICAIA8Ge3AHAmZayafJQuntb5E'}>
+           <button className="btn bg-transparent text-base-100 border-[--clr] hover:bg-[--clr] hover:border-[--clr] hover:text-black">
               Resume
             </button>
+           </Link>
           </div>
         </nav>
       </div>

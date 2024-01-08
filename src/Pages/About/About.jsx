@@ -103,7 +103,7 @@ const About = () => {
         <h1>
           <Link to={"https://www.instagram.com/rafiuzzaman_rion/"}>
             <FaInstagram
-              className="mr-2  text-green-400  mb-2 icon"
+              className="mr-5  text-green-400  mb-2 icon"
               size={50}
             />
           </Link>
@@ -112,7 +112,7 @@ const About = () => {
           <Link to={"https://github.com/Rafiuzzamanrion"}>
             {" "}
             <FaSquareGithub
-              className="mr-2  text-green-400 mb-2 icon"
+              className="mr-5  text-green-400 mb-2 icon"
               size={50}
             />
           </Link>

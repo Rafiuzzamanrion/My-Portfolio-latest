@@ -91,7 +91,7 @@ const NavBar = () => {
             Contact
           </Link>
           <div className="flex justify-center items-center">
-           <Link to={'https://app.luminpdf.com/viewer/658942dce8222f5f26a18d25'}>
+           <Link to={'https://app.luminpdf.com/viewer/65ca0fbf41a7bdfb8c314374'}>
            <button className="btn bg-transparent text-base-100 border-[--clr] hover:bg-[--clr] hover:border-[--clr] hover:text-black">
               Resume
             </button>

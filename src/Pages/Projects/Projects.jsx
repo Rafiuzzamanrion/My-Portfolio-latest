@@ -5,6 +5,7 @@ import imgMeal from "../../assets/meal-3.jpg";
 import imgNews from "../../assets/newspaper.jpg";
 import imgCar from "../../assets/car.jpg";
 import imgAmazon from "../../assets/amazon.png";
+import imgAds from "../../assets/ads.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -132,17 +133,38 @@ const Projects = () => {
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
-            <img className="object-cover" src={imgNews} alt="" />
+            <img className="object-cover" src={imgAds} alt="" />
             <div className="portfolio-layer">
               <h4 className="text-[--text] font-bold uppercase my-auto">
-                Meta <span className="text-[--clr]">Ads Shop</span>
+                Meta <span className="text-[--clr]">Meta Ads Shop</span>
               </h4>
               <p className="text-[--text] text-justify">
-                As the developer behind Dragon News, I blend innovation with
-                functionality to bring you a seamless and engaging news-reading
-                experience.
+              Proudly presenting Meta Ads Shop, where innovation meets advertising brilliance. Transform your brand&apos;s visibility with our cutting-edge platform developed to drive success
               </p>
-              <Link to={'https://the-news-dragon-client-topaz.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
+              <Link to={'https://facebook-add-house.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
+                <button className="btn bg-white border-[--clr] hover:bg-[--bg-light] border-2 hover:border-[--clr]  hover:text-white">
+                  <FaExternalLinkAlt size={20} />
+                  View project
+                </button>
+              </Link>
+            </div>
+          </div>
+                            {/* ========== project =========== */}
+          <div
+            className="portfolio-box"
+            data-aos="zoom-in"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <img className="object-cover" src={imgAds} alt="" />
+            <div className="portfolio-layer">
+              <h4 className="text-[--text] font-bold uppercase my-auto">
+                Meta <span className="text-[--clr]">Meta Ads Shop</span>
+              </h4>
+              <p className="text-[--text] text-justify">
+              Proudly presenting Meta Ads Shop, where innovation meets advertising brilliance. Transform your brand&apos;s visibility with our cutting-edge platform developed to drive success
+              </p>
+              <Link to={'https://facebook-add-house.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
                 <button className="btn bg-white border-[--clr] hover:bg-[--bg-light] border-2 hover:border-[--clr]  hover:text-white">
                   <FaExternalLinkAlt size={20} />
                   View project

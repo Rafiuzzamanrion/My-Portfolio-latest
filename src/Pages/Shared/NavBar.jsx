@@ -91,7 +91,7 @@ const NavBar = () => {
             Contact
           </Link>
           <div className="flex justify-center items-center">
-           <Link to={'https://drive.google.com/file/d/1Fdlwpm5J2DnRwcXNrVrvsZ6qx-IKnPeN/view?usp=sharing'}>
+           <Link to={'https://drive.google.com/file/d/134pKwFIfSaEbQVr81PPKJJ46PyQGHRxF/view?usp=sharing'}>
            <button className="btn bg-transparent text-base-100 border-[--clr] hover:bg-[--clr] hover:border-[--clr] hover:text-black">
               Resume
             </button>

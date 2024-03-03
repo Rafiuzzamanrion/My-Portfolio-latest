@@ -136,7 +136,7 @@ const Projects = () => {
             <img className="object-cover" src={imgAds} alt="" />
             <div className="portfolio-layer">
               <h4 className="text-[--text] font-bold uppercase my-auto">
-                Meta <span className="text-[--clr]">Meta Ads Shop</span>
+                Meta <span className="text-[--clr]">Ads Shop</span>
               </h4>
               <p className="text-[--text] text-justify">
               Proudly presenting Meta Ads Shop, where innovation meets advertising brilliance. Transform your brand&apos;s visibility with our cutting-edge platform developed to drive success
@@ -159,7 +159,7 @@ const Projects = () => {
             <img className="object-cover" src={imgAds} alt="" />
             <div className="portfolio-layer">
               <h4 className="text-[--text] font-bold uppercase my-auto">
-                Meta <span className="text-[--clr]">Meta Ads Shop</span>
+                Meta <span className="text-[--clr]">Ads Shop</span>
               </h4>
               <p className="text-[--text] text-justify">
               Proudly presenting Meta Ads Shop, where innovation meets advertising brilliance. Transform your brand&apos;s visibility with our cutting-edge platform developed to drive success

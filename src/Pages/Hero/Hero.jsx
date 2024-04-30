@@ -50,7 +50,7 @@ const Hero = () => {
         >
           Welcome to my digital playground, where lines of code transform into
           immersive web experiences. I&apos;m a{" "}
-          <span className="font-semibold text-slate-200">
+          <span className="font-semibold text-[--clr]">
             Full Stack Web Developer
           </span>{" "}
           with a passion for turning ideas into pixel-perfect reality . Explore

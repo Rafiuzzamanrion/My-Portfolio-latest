@@ -6,6 +6,7 @@ import imgNews from "../../assets/newspaper.jpg";
 import imgCar from "../../assets/car.jpg";
 import imgAmazon from "../../assets/amazon.png";
 import imgAds from "../../assets/ads.png";
+import imgTask from "../../assets/taskpad.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -22,8 +23,7 @@ const Projects = () => {
       </div>
       <section className="portfolio">
         <div className="portfolio-container grid lg:grid-cols-2 gap-4">
-
-        <div
+          <div
             className="portfolio-box"
             data-aos="zoom-in"
             data-aos-easing="linear"
@@ -35,9 +35,14 @@ const Projects = () => {
                 Amazon <span className="text-[--clr]">Store</span>
               </h4>
               <p className="text-[--text] text-justify">
-              I have Created an Amazon store using the MERN stack, offering a seamless shopping experience with MongoDB, Express.js, React.js, and Node.js.
+                I have Created an Amazon store using the MERN stack, offering a
+                seamless shopping experience with MongoDB, Express.js, React.js,
+                and Node.js.
               </p>
-              <Link to={'https://amazon-client-eight.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
+              <Link
+                to={"https://amazon-client-eight.vercel.app/"}
+                className="inline-flex justify-center items-center mb-3 mt-5"
+              >
                 <button className="btn bg-white border-[--clr] hover:bg-[--bg-light] border-2 hover:border-[--clr]  hover:text-white">
                   <FaExternalLinkAlt size={20} />
                   View project
@@ -63,7 +68,10 @@ const Projects = () => {
                 and responsive design that power this flavorful culinary web
                 experience.
               </p>
-              <Link to={'https://meal-cage-client.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
+              <Link
+                to={"https://meal-cage-client.vercel.app/"}
+                className="inline-flex justify-center items-center mb-3 mt-5"
+              >
                 <button className="btn bg-white border-[--clr] hover:bg-[--bg-light] border-2 hover:border-[--clr]  hover:text-white">
                   <FaExternalLinkAlt size={20} />
                   View project
@@ -87,11 +95,13 @@ const Projects = () => {
               <p className="text-[--text] text-justify">
                 As the architect behind Car Repair, I&apos;ve meticulously
                 crafted a digital pit stop where cutting-edge technology meets
-                automotive expertise.
-                I&apos;ve engineered to redefine the way you connect with car
-                servicing.
+                automotive expertise. I&apos;ve engineered to redefine the way
+                you connect with car servicing.
               </p>
-              <Link to={'https://car-doctor-client-amber.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
+              <Link
+                to={"https://car-doctor-client-amber.vercel.app/"}
+                className="inline-flex justify-center items-center mb-3 mt-5"
+              >
                 <button className="btn bg-white border-[--clr] hover:bg-[--bg-light] border-2 hover:border-[--clr]  hover:text-white">
                   <FaExternalLinkAlt size={20} />
                   View project
@@ -100,8 +110,7 @@ const Projects = () => {
             </div>
           </div>
           {/* ========== project =========== */}
-          
-        
+
           <div
             className="portfolio-box"
             data-aos="zoom-in"
@@ -118,7 +127,10 @@ const Projects = () => {
                 functionality to bring you a seamless and engaging news-reading
                 experience.
               </p>
-              <Link to={'https://the-news-dragon-client-topaz.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
+              <Link
+                to={"https://the-news-dragon-client-topaz.vercel.app/"}
+                className="inline-flex justify-center items-center mb-3 mt-5"
+              >
                 <button className="btn bg-white border-[--clr] hover:bg-[--bg-light] border-2 hover:border-[--clr]  hover:text-white">
                   <FaExternalLinkAlt size={20} />
                   View project
@@ -126,7 +138,7 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-                            {/* ========== project =========== */}
+          {/* ========== project =========== */}
           <div
             className="portfolio-box"
             data-aos="zoom-in"
@@ -139,9 +151,14 @@ const Projects = () => {
                 Meta <span className="text-[--clr]">Ads Shop</span>
               </h4>
               <p className="text-[--text] text-justify">
-              Proudly presenting Meta Ads Shop, where innovation meets advertising brilliance. Transform your brand&apos;s visibility with our cutting-edge platform developed to drive success
+                Proudly presenting Meta Ads Shop, where innovation meets
+                advertising brilliance. Transform your brand&apos;s visibility
+                with our cutting-edge platform developed to drive success
               </p>
-              <Link to={'https://facebook-add-house.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
+              <Link
+                to={"https://facebook-add-house.vercel.app/"}
+                className="inline-flex justify-center items-center mb-3 mt-5"
+              >
                 <button className="btn bg-white border-[--clr] hover:bg-[--bg-light] border-2 hover:border-[--clr]  hover:text-white">
                   <FaExternalLinkAlt size={20} />
                   View project
@@ -149,22 +166,28 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-                            {/* ========== project =========== */}
+          {/* ========== project =========== */}
           <div
             className="portfolio-box"
             data-aos="zoom-in"
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
-            <img className="object-cover" src={imgAds} alt="" />
+            <img className="object-cover" src={imgTask} alt="" />
             <div className="portfolio-layer">
               <h4 className="text-[--text] font-bold uppercase my-auto">
-                Meta <span className="text-[--clr]">Ads Shop</span>
+                Meta <span className="text-[--clr]">Task Pad</span>
               </h4>
               <p className="text-[--text] text-justify">
-              Proudly presenting Meta Ads Shop, where innovation meets advertising brilliance. Transform your brand&apos;s visibility with our cutting-edge platform developed to drive success
+                Task Pad: Task Pad Built with MERN stack, Task
+                Pad streamlines workflow organization with intuitive features
+                and seamless integration. It&apos;s your efficient task management
+                solution.
               </p>
-              <Link to={'https://facebook-add-house.vercel.app/'} className="inline-flex justify-center items-center mb-3 mt-5">
+              <Link
+                to={"https://task-pad-client.vercel.app/"}
+                className="inline-flex justify-center items-center mb-3 mt-5"
+              >
                 <button className="btn bg-white border-[--clr] hover:bg-[--bg-light] border-2 hover:border-[--clr]  hover:text-white">
                   <FaExternalLinkAlt size={20} />
                   View project
@@ -172,7 +195,7 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-                            {/* ========== project =========== */}
+          {/* ========== project =========== */}
         </div>
       </section>
     </div>

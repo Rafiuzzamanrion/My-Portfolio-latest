@@ -21,7 +21,7 @@ const Contact = () => {
     },
   ];
   return (
-    <div>
+    <div className="min-h-screen">
       <Helmet>
         <title>Contact</title>
       </Helmet>
@@ -52,7 +52,7 @@ const Contact = () => {
               return (
                 <div
                   key={index}
-                  className="shadow-xl bg-[--bg-light] border border-[--clr] p-4 rounded-md"
+                  className="shadow-xl bg-[--bg-light] border border-[--clr] p-4 rounded-md h-56"
                 >
                   <div
                     className="flex flex-col items-center"
